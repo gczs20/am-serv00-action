@@ -2,7 +2,7 @@ name: keep_serv00_login
 
 on:
   schedule:
-    - cron: "20 8 */10 * *"  # 每10天0点运行一次
+    - cron: "20 8 */10 * *"  # 每10天8点20分运行一次
   workflow_dispatch:  # 支持手动执行  
 
 env:
